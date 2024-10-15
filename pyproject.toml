@@ -1,0 +1,26 @@
+[build-system]
+requires = ["scikit-build-core >=0.4.3"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "nbmetis"
+version = "0.0.1"
+description = "Python bindings for METIS using Nanobind"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Parantapa Bhattacharya", email = "pb.pypi@parantapa.net" },
+]
+classifiers = [
+    "License :: MIT",
+]
+
+[project.urls]
+Homepage = "https://github.com/NSSAC/nbmetis"
+
+[tool.scikit-build]
+minimum-version = "0.4"
+
+build-dir = "build/{wheel_tag}"
+
+wheel.py-api = "cp311"

@@ -1,0 +1,9 @@
+[submodule "extern/GKlib"]
+	path = extern/GKlib
+	url = https://github.com/parantapa/GKlib.git
+[submodule "extern/METIS"]
+	path = extern/METIS
+	url = https://github.com/parantapa/METIS.git
+[submodule "extern/nanobind"]
+	path = extern/nanobind
+	url = https://github.com/wjakob/nanobind
